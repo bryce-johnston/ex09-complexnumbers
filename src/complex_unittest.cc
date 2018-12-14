@@ -1,4 +1,4 @@
-// Copyright 2018, Allan Knight.
+ // Copyright 2018, Allan Knight.
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -50,6 +50,8 @@ namespace {
     using std::string;
 
     using namespace ::testing_internal;
+
+    typedef uint64_t uint;
 
     class ComplexNumbersTest : public ::testing::Test {
     protected:
